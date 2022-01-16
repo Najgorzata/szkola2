@@ -1,0 +1,2 @@
+wprowadzenie numer 2
+
