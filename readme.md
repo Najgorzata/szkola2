@@ -4,4 +4,4 @@ inny wpis
 
 jeszcze inny
 
-no i trzeci bo trzeba
+no i trzeci bo trze ba
