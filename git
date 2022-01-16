@@ -1,0 +1,165 @@
+1  atom koszyk2.txt
+    2  vim koszyk2.txt
+    3  cut -d'=' -f2 koszyk2.txt
+    4  cut -d'=' -f2 | paste -- koszyk2.txt
+    5  cut -d'=' -f2 koszyk2.txt
+    6  cut -d'=' -f2 koszyk2.txt | paste -- koszyk2.txt
+    7  cut -d'=' -f2 koszyk2.txt
+    8  cut -d'=' -f2 koszyk2.txt | paste --
+    9  cut -d'=' -f2 koszyk2.txt | paste - -
+   10  cat koszyk2.txt | tr d"=" " "
+   11  cat koszyk2.txt | tr -d"=" " "
+   12  cat koszyk2.txt | tr "=" " "
+   13  cat koszyk2.txt | tr "=" " " | sed 's/mleko/M0/g'
+   14  cat koszyk2.txt
+   15  sed 's/mleko/M0/g'  koszyk2.txt
+   16  cat koszyk2.txt
+   17  echo "Ala ma kota" | sed 's/kota/psa/g'
+   18  less/var/log/syslog
+   19  less /var/log/syslog
+   20  head -n 1 /var/log/syslog
+   21  sudo less /var/log/syslog
+   22  tail -n 2 /var/log/syslog
+   23  mkdir magazyn
+   24  cd magazyn
+   25  mkdir slodycze
+   26  cd slodycze
+   27  touch produkty.txt
+   28  vim produkty.txt
+   29  cd ..
+   30  mkdir mleczne
+   31  vim produkty.txt
+   32  cd
+   33  ls
+   34  tree
+   35  sudo apt install tree
+   36  tree
+   37  cd magazyn
+   38  cut -d',' f2 *.txt
+   39  cut -d',' f2 mleczne/produkty.txt
+   40  cat mleczne/podukty.txt cat slodycze/produkty.txt
+   41  cat mleczne/produkty.txt cat slodycze/produkty.txt
+   42  cat magazyn/produkty.txt cat slodycze/produkty.txt
+   43  cat produkty.txt cat slodycze/produkty.txt
+   44  cat produkty.txt cat slodycze/produkty.txt | cut -d',' -f2
+   45  tac produkty.txt tac slodycze/produkty.txt
+   46  cat slodycze/produkty.txt slodycze/produkty.txt | cut -d',' -f2
+   47  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2
+   48  cat magazyn/*/produkty.txt
+   49  cat magazyn/*/*.txt
+   50  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2
+   51  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2 | awk '{suma +=  $1} END {print suma}
+
+   52  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2 | awk '{suma +=  $1} END {print suma}
+\\
+
+
+   53  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2 | awk '{suma +=  $1} END {print suma} dane
+   54  cat slodycze/produkty.txt produkty.txt | cut -d',' -f2 | awk '{suma +=  $1} END {print suma}'
+   55  curl google.com
+   56  curl -L google.com
+   57  curl -I -L google
+   58  curl -I -L google.com
+   59  curl -I -L google.com | grep HTTP
+   60  cd
+   61  mkdir naukagita
+   62  cd naukagita
+   63  pwd
+   64  git init
+   65  git config -l
+   66  git config --global user.name "najgorzata"
+   67  git config --global user.email "najgorzata@gmail.com"
+   68  cat ~/.gitconfig
+   69  atom
+   70  sudo apt unstall atom
+   71  sudo apt install atom
+   72  atom readme.md
+   73  vim readme.md
+   74  git status
+   75  git add readme.md
+   76  git commit -m "Nowy"
+   77  git status
+   78  git log
+   79  sudo snap install atom --classic
+   80  git config --global user.email "najgorzata@users.noreply.github.com"
+   81  cat ~/.gitconfig
+   82  atom readme.md
+   83  atom . readme.md
+   84  git status
+   85  git add readme.md
+   86  git commit -m "numer 2"
+   87  git status
+   88  git add readme.md
+   89  git commit -m "numer 3"
+   90  git log
+   91  gitk
+   92  sudo apt install gitk
+   93  sudo apt install gitg
+   94  gitk
+   95  gitg
+   96  git status
+   97  git add readme.md
+   98  git status
+   99  git commit -m "trzecia proba"
+  100  git remote add origin https://github.com/Najgorzata/nauka_git.git
+  101  git push
+  102  git push --set-upstream origin master
+  103  git push
+  104  git push --set-upstream origin master
+  105  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  106  hint: Updates were rejected because the remote contains work that you do
+  107  hint: not have locally. This is usually caused by another repository pushing
+  108  hint: to the same ref. You may want to first integrate the remote changes
+  109  hint: (e.g., 'git pull ...') before pushing again.
+  110  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  111  git push -u origin master
+  112  git push
+  113  git push -u origin master
+  114  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  115  hint: Updates were rejected because the remote contains work that you do
+  116  hint: not have locally. This is usually caused by another repository pushing
+  117  hint: to the same ref. You may want to first integrate the remote changes
+  118  hint: (e.g., 'git pull ...') before pushing again.
+  119  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  120  git push --set-upstream origin master
+  121  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  122  hint: Updates were rejected because the remote contains work that you do
+  123  hint: not have locally. This is usually caused by another repository pushing
+  124  hint: to the same ref. You may want to first integrate the remote changes
+  125  hint: (e.g., 'git pull ...') before pushing again.
+  126  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  127  git push --set-upstream origin master
+  128  hint: not have locally. This is usually caused by another repository pushing
+  129  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  130  hint: Updates were rejected because the remote contains work that you do
+  131  hint: not have locally. This is usually caused by another repository pushing
+  132  hint: to the same ref. You may want to first integrate the remote changes
+  133  hint: (e.g., 'git pull ...') before pushing again.
+  134  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  135  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  136  hint: Updates were rejected because the remote contains work that you do
+  137  hint: not have locally. This is usually caused by another repository pushing
+  138  hint: to the same ref. You may want to first integrate the remote changes
+  139  hint: (e.g., 'git pull ...') before pushing again.
+  140  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  141  error: failed to push some refs to 'https://github.com/Najgorzata/nauka_git.git'
+  142  hint: Updates were rejected because the remote contains work that you do
+  143  hint: not have locally. This is usually caused by another repository pushing
+  144  hint: to the same ref. You may want to first integrate the remote changes
+  145  hint: (e.g., 'git pull ...') before pushing again.
+  146  hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+  147  git remote add origin https://github.com/Najgorzata/szkola2.git
+  148  git push
+  149  git push -u origin master
+  150  git status
+  151  git add
+  152  git add readme.md
+  153  git commit -m "Ojej"
+  154  git push
+  155  git push --set-upstream origin master
+  156  git push - u origin master
+  157  git push -u origin master
+  158  git remote remove origin
+  159  git remote add origin https://github.com/Najgorzata/szkola2.git
+  160  git push
+  161  git push -u origin master
